@@ -1,0 +1,25 @@
+.main {
+    border: 1px solid gainsboro;
+    max-width: 950px;
+}
+
+.sidebar {
+    border: 1px solid gainsboro;
+    max-width: 270px;
+}
+
+h2, h3 {
+    color: #4aaaa5;
+}
+
+.container-fluid {
+    height: 80px;
+}
+
+.nav {
+    height: 100%;
+}
+
+li {
+    padding: 20px;
+}
