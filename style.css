@@ -60,7 +60,7 @@ footer {
 
 }
 
-h1, h3 {
+h1, h4 {
     color: #4aaaa5;
 }
 
@@ -69,11 +69,11 @@ h1, h3 {
     color: gray;
 }
 
-.card {
+/* .card {
     height: 200px;
     width: 200px;
 
-}
+} */
 
 .card-title {
     background-color: #4aaaa5;
@@ -83,4 +83,23 @@ h1, h3 {
 .card-header{
     color: #4aaaa5;
     background-color: white;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.card-img {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .logo {
+        width: 100%;
+    }
+
+    .card-title {
+        text-align: center;
+    }
 }
